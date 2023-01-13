@@ -1,0 +1,43 @@
+<html>
+    <head>
+    <title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+ 
+ 
+</head>
+<body background = "https://www.shutterstock.com/image-photo/portrait-confident-young-dj-headphones-260nw-1082977484.jpg">
+<center>
+    <h3 class="btn btn-warning heading"> Music WepApp
+    <br>
+    <br>
+    <span class = "Note"> Note : Move your left hand up and down to increase and decrease the speed. Move your right hand up and down to increase and decrease the volume</span>
+    </h3>
+<div class = " div_speed"> 
+<img class = "div_speed_img" src = "disk.gif">
+<br>
+<h3 class = "btn btn-danger" id= "speed"></h3>
+</div>
+ 
+<div class = " div_volume"> 
+<img class = " div_volume_img" src = "disk.gif">
+<br>
+<h3 class = "btn btn-danger" id= "volume"></h3>
+</div>
+ 
+<br> <br>
+<button class = "btn btn-success play_button onclick= "play()""> Play </button>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
